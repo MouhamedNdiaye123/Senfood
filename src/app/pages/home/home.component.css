@@ -1,0 +1,4 @@
+.home{
+    background: linear-gradient(rgba(255, 255, 255, 0.075), rgba(255, 255, 255, 0)),url(/assets/images/pizza-bg.jpg) no-repeat center/cover;
+    min-height: 92vh;
+}

@@ -1,0 +1,36 @@
+.order-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.order-content h2{
+    font-size: 18px;
+    text-transform: capitalize;
+    color: brown;
+    text-align: center;
+}
+.order-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, auto));
+    align-items: center;
+    grid-gap: 20px;
+}
+.order-box{
+    border-radius: 10px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    margin: 20px 0;
+}
+.order-box span{
+    display: inline-block;
+    font-size: 25px;
+    color: brown;
+    margin-bottom: 15px;
+}
+.order-box p{
+    font-size: 14px;
+    text-transform: capitalize;
+}

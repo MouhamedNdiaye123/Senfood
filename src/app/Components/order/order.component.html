@@ -1,0 +1,11 @@
+<section class="order">
+    <div class="order-content">
+        <h2>Comment obtenir du bon et du frai</h2>
+    </div>
+    <div class="order-container">
+        <div class="order-box" *ngFor="let order of orders">
+            <span>{{order.orderSpan}}</span>
+            <p>{{order.orderP}}</p>
+        </div>
+    </div>
+</section>

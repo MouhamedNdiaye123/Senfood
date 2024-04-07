@@ -1,0 +1,31 @@
+footer{
+    background-color: crimson;
+}
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    grid-gap: 20px;
+    align-items: center;
+}
+.footer-heading h2{
+    text-transform: capitalize;
+    font-size: 18px;
+    color: black;
+    margin-bottom: 15px;
+}
+.footer-box{
+    display: flex;
+    flex-direction: column;
+
+}
+.footer-box a{
+    display: inline-block;
+    margin: 10px 0;
+}
+.copy{
+    padding: 15px 5px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    background-color: black;
+}
