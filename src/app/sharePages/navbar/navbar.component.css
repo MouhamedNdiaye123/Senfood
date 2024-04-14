@@ -11,8 +11,8 @@ header{
 }
 header .logo{
     font-size: 20px;
-    color: brown;
-    font-weight: 600;
+    color: rgb(252, 11, 11);
+    font-weight: 700;
 }
 header nav{
     display: flex;
@@ -26,5 +26,5 @@ nav a{
     transition: .2s ease-in-out;
 }
 nav a:hover{
-    color: brown;
+    color: rgb(247, 12, 12);
 }

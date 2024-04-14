@@ -1,0 +1,39 @@
+.food-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+    grid-gap: 20px;
+    align-items: center;
+}
+.food-box a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+
+}
+.food-box span{
+    font-size: 14px;
+    color: rgb(37, 37, 37);
+    margin-bottom: 5px;
+}
+.food-box h4{
+    text-transform: capitalize;
+    font-size: 15px;
+    margin-bottom: 5px;
+    color: black;
+}
+.food-box a button{
+    display: inline-block;
+    text-transform: capitalize;
+    width: 100%;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    padding: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+    margin: 10px 0;
+}
+.food-box a button:hover{
+    background-color: rgb(187, 14, 14);
+}

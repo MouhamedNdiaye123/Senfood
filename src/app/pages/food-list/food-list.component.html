@@ -1,0 +1,12 @@
+<section class="food">
+    <div class="food-container">
+        <div class="food-box" *ngFor="let f of foodList">
+            <a routerLink="/foods/{{f.id}}">
+                <img [src]="f.imgUrl" alt="{{f.name}}">
+                <span>{{f.price}}</span>
+                <h4>{{f.name}}</h4>
+                <button (click)="add()">ajouter</button>
+            </a>
+        </div>
+    </div>
+</section>

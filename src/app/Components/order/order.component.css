@@ -7,12 +7,12 @@
 .order-content h2{
     font-size: 18px;
     text-transform: capitalize;
-    color: brown;
+    color: rgb(248, 0, 0);
     text-align: center;
 }
 .order-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(160px, auto));
     align-items: center;
     grid-gap: 20px;
 }
@@ -27,7 +27,7 @@
 .order-box span{
     display: inline-block;
     font-size: 25px;
-    color: brown;
+    color: rgb(255, 0, 0);
     margin-bottom: 15px;
 }
 .order-box p{

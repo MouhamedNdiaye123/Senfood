@@ -1,4 +1,25 @@
 .home{
-    background: linear-gradient(rgba(255, 255, 255, 0.075), rgba(255, 255, 255, 0)),url(/assets/images/pizza-bg.jpg) no-repeat center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.308), rgba(0, 0, 0, 0.507)),url(/assets/images/pizza-bg.jpg) no-repeat center/cover;
     min-height: 92vh;
+}
+.home-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+.home-content h1{
+    font-size: clamp(30px, 5vw, 45px);
+    text-transform: capitalize;
+    margin-bottom: 25px;
+}
+.home-content p{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+.home-content p span{
+    color: rgb(245, 9, 9);
+    font-size: 18px;
+    font-weight: 600;
 }
