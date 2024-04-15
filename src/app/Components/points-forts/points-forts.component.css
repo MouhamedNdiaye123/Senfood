@@ -1,0 +1,20 @@
+.highlight{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, auto));
+    grid-gap: 10px;
+
+}
+.highlight-box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-right: 1px solid rgba(116, 114, 114, 0.541);
+}
+.highlight-box i{
+    font-size: 45px;
+    color: rgb(240, 10, 10);
+    margin-bottom: 5px;
+}
+.highlight-box h2{
+    font-size: 18px;
+}
