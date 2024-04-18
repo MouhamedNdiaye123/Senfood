@@ -6,7 +6,7 @@ import { Injectable } from '@angular/core';
 })
 export class FoodService {
 
-  getProduct(): Food[]{
+  getFood(): Food[]{
     return[
       {
         id: 1,
@@ -73,6 +73,9 @@ export class FoodService {
       },
      
     ]
+  }
+  getFoodById(id: number){
+    return this.getFood
   }
   constructor() { }
 }

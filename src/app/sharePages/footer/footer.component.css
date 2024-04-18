@@ -2,9 +2,9 @@ footer{
     background-color: crimson;
 }
 .footer-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
-    grid-gap: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
 }
 .footer-heading h2{
@@ -16,11 +16,11 @@ footer{
 .footer-box{
     display: flex;
     flex-direction: column;
-
 }
 .footer-box a{
     display: inline-block;
     margin: 10px 0;
+    color: white;
 }
 .copy{
     padding: 15px 5px;
