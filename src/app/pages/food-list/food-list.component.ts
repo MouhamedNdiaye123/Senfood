@@ -17,8 +17,11 @@ export class FoodListComponent implements OnInit{
   add(){
 
   }
+
+  // Injection de dependance
   constructor(private foodService: FoodService){}
   ngOnInit(): void {
+    
     this.foodList= this.foodService.getFood()
   }
 }

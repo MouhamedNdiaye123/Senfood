@@ -1,6 +1,6 @@
 .home{
     background: linear-gradient(rgba(0, 0, 0, 0.205), rgba(0, 0, 0, 0.171)),url(/assets/images/pizza-bg.jpg) no-repeat center/cover;
-    min-height: 85vh;
+    min-height: 90vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -8,7 +8,6 @@
 .home-content{
     display: flex;
     flex-direction: column;
-    
     text-align: center;
     color: white;
 }

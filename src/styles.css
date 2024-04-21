@@ -7,11 +7,25 @@
     resize: none;
     outline: none;
     font-family: 'Poppins', sans-serif;
-
 }
 img{
     width: 100%;
 }
 section, footer{
     padding: 100px 8%;
+}
+.btn{
+    display: inline-block;
+    padding: 20px 12px;
+    background-color: rgb(255, 0, 0);
+    text-transform: capitalize;
+    color: white;
+    margin: 20px 0;
+    font-size: 15px;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(195, 11, 11);
+    
 }

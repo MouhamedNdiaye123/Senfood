@@ -75,7 +75,7 @@ export class FoodService {
     ]
   }
   getFoodById(id: number){
-    return this.getFood
+    return this.getFood().find(Food => Food.id == id);
   }
   constructor() { }
 }
