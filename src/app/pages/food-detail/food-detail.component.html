@@ -1,1 +1,13 @@
-<p>food-detail works!</p>
+<section class="food">
+    <div class="food-container" *ngIf="food">
+        <div class="food-box">
+            <img [src]="food.imgUrl" alt="{{food.name}}">
+        </div>
+        <div class="food-box">
+            <span>{{food.price}}</span>
+            <h4>{{food.name}}</h4>
+            <p>{{food.description}}</p>
+            <button class="btn">ajouter</button>
+        </div>
+    </div>
+</section>
